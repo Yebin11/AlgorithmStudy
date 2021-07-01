@@ -9,6 +9,5 @@ for i in range(n - 2):
         for k in range(j + 1, n):
             tmp = cards[i] + cards[j] + cards[k]
             if m - sum > m - tmp and m - tmp >= 0:
-                print(cards[i], cards[j], cards[k])
                 sum = tmp
 print(sum)
